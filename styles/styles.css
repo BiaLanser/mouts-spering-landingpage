@@ -58,7 +58,8 @@ body {
 
 .btn:hover {
   background: transparent;
-  color: var(--dark-blue);
+  color: var(--color);
+  cursor: pointer;
 }
 .warning {
   background-color: var(--red-clear);
@@ -85,4 +86,14 @@ body {
 }
 .half{
     flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
