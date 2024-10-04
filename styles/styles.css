@@ -6,6 +6,10 @@ li {
   display: flex;
   align-items: center;
 }
+h2{
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif ;
+}
 
 a {
   text-decoration: none;
