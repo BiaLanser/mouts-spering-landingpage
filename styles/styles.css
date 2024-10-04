@@ -15,16 +15,17 @@ a {
 ul {
   display: flex;
   align-items: center;
-
   gap: 20px;
   margin: 0px;
-  background-color: #1a2e35;
 }
 
 nav {
-  background-color: #1a2e35;
+  background-color: transparent;
+  position: absolute;
   color: #fff;
   padding: 30px;
+  z-index: 1;
+
 }
 
 body {
@@ -57,7 +58,8 @@ body {
 
 .btn:hover {
   background: transparent;
-  color: var(--dark-blue);
+  color: var(--color);
+  cursor: pointer;
 }
 .warning {
   background-color: var(--red-clear);
@@ -70,4 +72,28 @@ body {
 .clear-blue {
   background-color: var(--clear-blue);
   color: var(--dark-blue);
+}
+.section{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+}
+.split{
+    display: flex;
+    flex-direction: row;
+}
+.half{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
