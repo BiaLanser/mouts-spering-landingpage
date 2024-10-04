@@ -59,7 +59,8 @@ body {
 
 .btn:hover {
   background: transparent;
-  color: var(--dark-blue);
+  color: var(--white);
+  cursor: pointer;
 }
 .warning {
   background-color: var(--red-clear);
