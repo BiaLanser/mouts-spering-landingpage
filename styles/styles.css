@@ -25,6 +25,7 @@ ul {
 }
 
 nav {
+  width: 100% !important;
   background-color: transparent;
   position: absolute;
   color: #fff;
@@ -78,6 +79,11 @@ body {
   background-color: var(--clear-blue);
   color: var(--dark-blue);
 }
+
+.white {
+  background-color: var(--white);
+  color: var(--dark-blue);
+}
 .section{
   width: 100vw;
   max-width: 100%;
@@ -85,10 +91,19 @@ body {
   max-height: 100vh;
   display: flex;
 }
+
+.shorter-section {
+  width: 100vw;
+  max-width: 100%;
+  height: 75vh;
+  max-height: 100vh;
+}
+
 .split{
   display: flex;
   flex-direction: row;
 }
+
 .half{
   flex:1;
   display: flex;
