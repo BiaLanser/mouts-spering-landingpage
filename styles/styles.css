@@ -10,7 +10,11 @@ h2{
     text-transform: uppercase;
     font-family: "Open Sans", sans-serif ;
 }
-
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 a {
   text-decoration: none;
   color: white;
@@ -33,6 +37,14 @@ nav {
   z-index: 1;
   
 }
+#media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 250px;
+}
+
 
 body {
   font-family: Arial, sans-serif;
@@ -102,6 +114,7 @@ body {
 .split{
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .half{
@@ -112,8 +125,52 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+.start{
+    align-items: start;
+    gap: 10px;
+}
+
 .row{
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+.icons-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+.social-media{
+    gap: 10;
+}
+.col-list{
+    flex-direction: column;
+    align-items: start;
+}
+
+#footer-col{
+    margin-top: 20px;
+}
+.input{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.footer-icon{
+    width: 15px;
+    height: 15px;
+}
+#footer-extra{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
