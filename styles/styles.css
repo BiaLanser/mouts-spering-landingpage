@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+ }
 :root{
     --dark-blue:#1A2E35;
     --clear-blue:#1CBBB4;
@@ -11,7 +18,6 @@
     width: 150px;
     height: 40px;
     font-family: "Open Sans", sans-serif;
-    color: var(--white);
     border: 0px;
     transition: all ease-in-out 0.2s;
 }
@@ -22,10 +28,13 @@
 }
 .warning{
     background-color: var(--red-clear);
+    color: var(--white);
 }
 .dark-blue{
     background: var(--dark-blue);
+    color: var(--white);
 }
 .clear-blue{
     background-color: var(--clear-blue);
+    color: var(--dark-blue);
 }
