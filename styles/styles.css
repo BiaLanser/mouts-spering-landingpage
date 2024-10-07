@@ -59,6 +59,15 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
+
+footer{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
 :root {
   --dark-blue: #1a2e35;
   --clear-blue: #1cbbb4;
@@ -178,6 +187,7 @@ flex-direction: column;
 .start{
     align-items: start;
     gap: 10px;
+    display: flex;
 }
 
 .row{
@@ -190,6 +200,7 @@ flex-direction: column;
     width: 100%;
     justify-content: space-between;
 }
+
 .logo{
     display: flex;
     flex-direction: row;
@@ -208,7 +219,7 @@ flex-direction: column;
 }
 .input{
     width: 200px;
-    height: 50px;
+    height: 35px;
     padding: 10px;
 }
 .input:focus{
@@ -223,4 +234,78 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+#location-id{
+  width: 12px;
+  height: 20px;
+}
+#email-id{
+  width: 20px;
+  height: 15px;
+}
+#offices{
+  margin-right: 150px;
+  text-align: start;
+  justify-content: center;
+}
+#information{
+  margin-right: 50px;
+}
+
+#offices p, #information p{
+  font-size: 14px;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#testimonial{
+  text-align: start;
+}
+#testimonial h2{
+  margin-bottom: 20px;
+}
+.card{
+  width: 800px;
+  height: 300px;
+  box-shadow: 1px 1px 10px #4b4949;
+  text-align: center;
+  padding: 50px;
+  gap: 20px;
+  position: relative;
+}
+
+.all-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow{
+  border-radius: 50px;
+  background: var(--dark-blue);
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  color: var(--white);
+  position: absolute;
+  transition: ease-in-out 0.5s all;
+  border: none;
+  margin: -25px;
+}
+.arrow:hover{
+  cursor: pointer;
+  background-color: #314a53;
+}
+#left{
+  left: 0;
+}
+#right{
+  right: 0;
 }
